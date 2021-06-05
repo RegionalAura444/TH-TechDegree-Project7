@@ -9,7 +9,7 @@
  body{
     margin:0; 
  } 
- 
+
   a {
     text-decoration: none;
   }
@@ -1119,8 +1119,6 @@
       width: 92%;
       max-width: none;
     }
-     .recent-activity-member-left {
-     }
      .new-member-text,
      .recent-activity-text {
        height: 29px;
