@@ -63,7 +63,7 @@
   .recent-activity-member,
   .widget-container,
   .notifications,
-  .custom-select,
+  .select,
   .save-cancel-container,
   .canvas-container-main,
   .canvas-container-daily,
@@ -384,13 +384,17 @@
   .mobile-users {
     padding-bottom: 20px;
     border-top: 1px solid rgba(217, 217, 217, 0.85);
+    height:228px;
+    width:457px;
   }
+ 
   
   /***  ROW 4  ***/
   /*----------  SOCIAL  ----------*/
   .social {
     padding-bottom: 20px;
     border-top: 1px solid rgba(217, 217, 217, 0.85);
+    
   }
   
   .social-container {
@@ -577,7 +581,7 @@
   
   /*  MAX WIDTH  limits*/
   .widget-container, .notifications,
-  .custom-select, .save-cancel-container {
+  .select, .save-cancel-container {
     max-width: 400px;
   }
   
@@ -752,7 +756,7 @@
   
   
   /* --------------   TIMEZONE   -------------- */
-  .custom-select {
+  .select {
     position: relative;
     height: 31px;
     width: 85%;
@@ -762,7 +766,7 @@
     border-radius: 4px;
     font-size: 13.5px;
   }
-  .custom-select select {
+  .select select {
     display: none; /*hide original SELECT element:*/
   }
   .select-selected {
@@ -1065,10 +1069,10 @@
     }
     /*----------  SOCIAL  ----------*/
     .social-flex {
-      width: 92%;
-      margin: auto;
+      width: 100%;
+      margin:auto;
       display: flex;
-      justify-content: space-between;
+      justify-content:space-between;
     }
     .social-container {
       height: 76px;
@@ -1215,7 +1219,7 @@
        right: 8px;
      }
      /* --------------   TIMEZONE   -------------- */
-     .custom-select {
+     .select {
        height: 36px;
        width: 92%;
        max-width: none;
@@ -1358,7 +1362,7 @@
        margin-bottom: 30px;
      }
      /* --------   TIMEZONE   -------- */
-     .custom-select {
+     .select {
        margin-bottom: 6px;
      }
      /* ------ SAVE-CANCEL ----- */
@@ -1381,7 +1385,7 @@
     .canvas-container-daily,
     .canvas-container-mobile {
       width: 90%;
-      height: 300px;
+
     }
   
     /*----    NAVIGATION    ----*/
@@ -1422,10 +1426,7 @@
     .recent-activity-container h3 {
       margin-bottom: 0;
     }
-    .canvas-container-daily,
-    .canvas-container-mobile {
-      height: 230px;
-    }
+    
     #notifications {
       max-width: 300px;
       right: 37%;
@@ -1478,6 +1479,7 @@
       display: flex;
       justify-content: space-between;
       border-top: 1px solid rgba(217, 217, 217, 0.85);
+      margin-bottom:100px;
     }
     /*-DAILY TRAFFIC-*/
     .daily-traffic {
@@ -1492,13 +1494,15 @@
       border: none;
       width: 50%;
     }
+
     /*-SOCIAL-*/
     .social {
       padding-bottom: 40px;
+      padding-top:100px;
+     
     }
     .social-flex {
-      width: 94%;
-      margin-left: 25px;
+      width: 100%;
     }
     .social-container {
       height: 92px;
@@ -1554,7 +1558,7 @@
        margin-left: 25px;
      }
      /* ----- TIMEZONE ----- */
-     .custom-select {
+     .select {
        width: 88%;
        margin-left: 25px;
      }
@@ -1643,7 +1647,7 @@
      #messageField {
        margin-top: 17px;
      }
-     .custom-select {
+     .select {
        margin-bottom: 0;
      }
   }
