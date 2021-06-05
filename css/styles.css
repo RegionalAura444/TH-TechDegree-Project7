@@ -781,6 +781,7 @@
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
+
   /*point the arrow upwards when the select box is open (active):*/
   .select-selected.select-arrow-active:after {
     top: 14px;
