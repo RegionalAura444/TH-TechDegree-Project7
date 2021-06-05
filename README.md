@@ -1,2 +1,2 @@
-# TH-TechDegree-Project7
- WebApp Dashboard
+# TH-Tech-Degree-Project7
+ Web App dashboard
