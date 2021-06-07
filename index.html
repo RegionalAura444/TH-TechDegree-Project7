@@ -58,19 +58,19 @@
 
 
       <nav>
-            <a href="#">
+            <a href="#dashboard">
                 <img src="svgs/dashboard.svg" class="icon active-icon" alt="Dashboard Icon">
             </a>
 
-            <a href="#">
+            <a href="#new_memebers">
                 <img src="svgs/members.svg" class="icon" alt="Members Icon">
             </a>
 
-            <a href="#">
+            <a href="#bar-chart">
                 <img src="svgs/bar-chart.svg" class="icon" alt="Visits Icon">
             </a>
             
-            <a href="#">
+            <a href="#set">
                 <img src="svgs/settings.svg" class="icon" alt="Settings Icon">
             </a>
       </nav>
@@ -100,7 +100,7 @@
                 </div>
             </div>
        
-            <div class="traffic">
+            <div class="traffic" id='dashboard'>
                 <div class="traffic-header">
                     <h3>TRAFFIC</h3>
                     <ul class="traffic-nav">
@@ -116,7 +116,7 @@
             </div>
             
             <div class="traffic-2">
-                <div class="daily-traffic">
+                <div class="daily-traffic" id='bar-chart'>
                     <h3>DAILY TRAFFIC</h3>
                     <div class="canvas-container-daily">
                     <canvas id="daily-chart"></canvas>
@@ -203,7 +203,7 @@
                 </div>
             </div>
             
-            <div class="members">
+            <div class="members" id='new_memebers'>
                 <section class="new-members-container">
                     <h3>NEW MEMBERS</h3>
                     <div class="new-member">
@@ -304,7 +304,7 @@
                     </form>
                 </section>
 
-                <section class="settings">
+                <section class="settings" id='set'>
                     <h3>SETTINGS</h3>
                     <div class="notifications">                        
                         <div class="notifications-container">
