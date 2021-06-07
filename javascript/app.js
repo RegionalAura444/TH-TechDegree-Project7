@@ -514,5 +514,5 @@ cancel.addEventListener('click', e => {
   localStorage.removeItem('emailSettings');
   localStorage.removeItem('profileSettings');
   localStorage.removeItem('select');
-  console.info('local storage cleared');
+  location.reload();
 });
