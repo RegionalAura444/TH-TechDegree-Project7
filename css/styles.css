@@ -1329,6 +1329,13 @@
        display: flex;
        border-top: 1px solid rgba(217, 217, 217, 0.5);
      }
+
+     .traffic-2{
+      position:relative; 
+     }
+     .mobile-users{
+      position:absolute; 
+     }
      /*- MESSAGE & SETTINGS CONTAINERS -*/
      .message,
      .settings {
