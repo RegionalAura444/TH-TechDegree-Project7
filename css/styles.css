@@ -384,7 +384,7 @@
   .mobile-users {
     padding-bottom: 20px;
     border-top: 1px solid rgba(217, 217, 217, 0.85);
-    height:228px;
+    /*height:228px;*/
     width:457px;
   }
  
@@ -1330,12 +1330,7 @@
        border-top: 1px solid rgba(217, 217, 217, 0.5);
      }
 
-     .traffic-2{
-      position:relative; 
-     }
-     .mobile-users{
-      position:absolute; 
-     }
+    
      /*- MESSAGE & SETTINGS CONTAINERS -*/
      .message,
      .settings {
