@@ -384,8 +384,6 @@
   .mobile-users {
     padding-bottom: 20px;
     border-top: 1px solid rgba(217, 217, 217, 0.85);
-    /*height:228px;*/
-    width:457px;
   }
  
   
@@ -917,6 +915,45 @@
     }
   }
   
+  @media all and (max-width: 360px) {
+    .new-member{
+      display: grid;
+      margin:auto;
+      text-align: center;
+      height:100px;
+    }
+    .new-member-date{
+      margin:auto;
+    }
+    .new-member-pic{
+      margin:auto;
+    }
+
+
+    .recent-activity-member{
+      height:100px;
+    }
+    .recent-activity-member-left{
+      display:grid;
+      margin:auto;
+      text-align: center;
+    }
+    .recent-activity-member-pic{
+      margin:auto;
+    }
+    .recent-activity-arrow{
+      display: none;
+    }
+
+    .new-members-container h3, 
+    .recent-activity-container h3{
+      text-align: left;
+      margin-left:10px;
+    }
+
+  }
+    
+
   @media all and (min-width: 464px) {
     .daily-traffic h3,
     .mobile-users h3,
@@ -949,7 +986,6 @@
        border-width: 0 1.8px 1.8px 0;
        padding: 5px;
      }
-  
   }
   
   @media all and (min-width: 600px) {
@@ -1321,11 +1357,11 @@
     }.recent-activity-container {
       border: none;
       width: 50%;
-    }.new-member,
+    }
+    .new-member,
     .recent-activity-member {
       height: 80px;
-    }
-     .message-settings {
+    }.message-settings {
        display: flex;
        border-top: 1px solid rgba(217, 217, 217, 0.5);
      }
@@ -1382,6 +1418,11 @@
       grid-template-areas:
               "header header"
               "nav main";
+    }
+
+    .traffic-2{
+     display: grid;
+     grid-template-columns:1fr 1fr;
     }
     /*****  CHARTS   *****/
     .canvas-container-daily,
